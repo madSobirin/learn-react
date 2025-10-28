@@ -1,7 +1,10 @@
-export const Header = () => {
+export const Header = (props) => {
+  const { name = "Ahmad", main = "3" } = props;
   return (
     <>
-      <h1>Ini adalah Header</h1>
+      <h1>
+        Ini adalah {name}, dan saya kelas {main}
+      </h1>
     </>
   );
 };
