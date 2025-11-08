@@ -7,7 +7,7 @@ export const Mainlayout = (p) => {
     <>
       <div className="min-h-full">
         <Navbar />
-        <Header title="Dashboard Page" />
+        <Header title={p.title} />
         <Main>{p.children}</Main>
       </div>
     </>

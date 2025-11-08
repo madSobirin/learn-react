@@ -7,7 +7,7 @@ export default function ProfileMenu({ user, userNavigation }) {
         <img
           alt="User avatar"
           src={user.imageUrl}
-          className="size-8 rounded-full outline -outline-offset-1 outline-white/10"
+          className="size-8 rounded-full outline -outline-offset-1 outline-white/10 cursor-pointer"
         />
       </MenuButton>
 
